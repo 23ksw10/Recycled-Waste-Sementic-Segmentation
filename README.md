@@ -96,11 +96,15 @@ I used ReduceLROnPlateau
 
 ![Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/media_images_predict_15_14_0.png](Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/media_images_predict_15_14_0.png)
 
+            Original image
+
 ![Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/index.png](Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/index.png)
+
+            FPN
 
 ![Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/Screenshot_2021-06-03_Weights_Biases.png](Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/Screenshot_2021-06-03_Weights_Biases.png)
 
-          Original Image                                        FPN                                         DeepLabV3Plus
+           DeepLabV3Plus
 
 ![Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/media_images_predict_19_18_68.png](Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/media_images_predict_19_18_68.png)
 
@@ -113,3 +117,8 @@ I used ReduceLROnPlateau
 ![Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/Screenshot_2021-06-03_Weights_Biases(1).png](Recycled-Waste-Sementic-Segmentation%20f459b5f17b4e469a83dc3a08087c39ef/Screenshot_2021-06-03_Weights_Biases(1).png)
 
            DeepLabV3Plus
+
+
+As you can see FPN and DeepLabV3Plus model predict different features and shape.
+
+So i decided ensemble both models
