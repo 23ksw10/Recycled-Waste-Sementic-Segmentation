@@ -1,8 +1,13 @@
 # Recycled-Waste-Sementic-Segmentation
 
-잘 분리배출 된 쓰레기는 자원으로서 가치를 인정받아 재활용되지만, 잘못 분리배출 되면 그대로 폐기물로 분류되어 매립, 소각되기 때문입니다. 우리나라의 분리 수거율은 굉장히 높은 것으로 알려져 있고, 또 최근 이러한 쓰레기 문제가 주목받으며 더욱 많은 사람이 분리수거에 동참하려 하고 있습니다. 하지만 '이 쓰레기가 어디에 속하는지', '어떤 것들을 분리해서 버리는 것이 맞는지' 등 정확한 분리수거 방법을 알기 어렵다는 문제점이 있습니다.
+잘 분리배출 된 쓰레기는 자원으로서 가치를 인정받아 재활용되지만, 잘못 분리배출 되어 그대로 폐기물로 분류되어 매립, 소각되기 쉽습니다. 우리나라의 분리 수거율은 굉장히 높은 것으로 알려져 있고, 또 최근 이러한 쓰레기 문제가 주목받으며 더욱 많은 사람이 분리수거에 동참하려 하고 있습니다. 하지만 '이 쓰레기가 어디에 속하는지', '어떤 것들을 분리해서 버리는 것이 맞는지' 등 정확한 분리수거 방법을 알기 어렵다는 문제점이 있습니다.
 
 따라서, 우리는 쓰레기가 찍힌 사진에서 쓰레기를 Segmentation 하는 모델을 만들어 이러한 문제점을 해결해보고자 합니다. 문제 해결을 위한 일반 쓰레기, 플라스틱, 종이, 유리 등 11 종류의 쓰레기로 분류할 것 입니다.
+
+
+Well-separated waste is recycled in recognition of its value as a resource, but it is easy to incorrectly separated and discharged so it can be classified as waste and buried and incinerated. Korea's separate collection rate is known to be very high, and more people are trying to participate in the separate collection as this garbage problem has recently attracted attention. However, there are problems that it is difficult to know exactly how to separate garbage, such as "where this garbage belongs" and "what kind of things should be separated and thrown away.
+
+Therefore, we would like to solve this problem by creating a model for segmenting garbage in photos of garbage. It will be classified into 11 types of garbage, including general waste, plastic, paper, and glass, to solve the problem.
 
 ### Usage
 
